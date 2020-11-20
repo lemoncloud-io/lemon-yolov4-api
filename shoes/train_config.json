@@ -17,7 +17,7 @@
         },
         "generate_custom_anchors": false,
         "batch_size": 64,
-        "max_batches": 1000,
+        "max_batches": 10000,
         "subdivisions": 32,
         "train_image_width": 416,
         "train_image_height": 416,
