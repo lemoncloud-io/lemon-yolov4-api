@@ -1,0 +1,40 @@
+{
+    "id": "a0f2f90b-34c5-44ac-98ec-7f4094c28c58",
+    "state": "submitted",
+    "context": {
+        "id": "1007367",
+        "type": "image",
+        "contentType": "image/jpeg",
+        "contentLength": 106335,
+        "image": {
+            "url": "https://lemon-hello-www.s3.ap-northeast-2.amazonaws.com/image/ba7d703c-11b9-42bb-ab3c-c6218e9db1b6.jpg",
+            "width": 460,
+            "height": 460
+        }
+    },
+    "annotations": [{
+        "id": "a45c292e-fa6a-4ca7-a8e6-a732dc553cb5",
+        "label": {
+            "id": "eHCIPiJC4zA",
+            "name": "슬리퍼"
+        },
+        "rect": {
+            "x": 9.457567804024496,
+            "y": 340.4724409448819,
+            "width": 301.83727034120733,
+            "height": 104.23447069116361
+        }
+    }, {
+        "id": "90aa268a-698e-4127-9835-be12c72a50bf",
+        "label": {
+            "id": "eHCIPiJC4zA",
+            "name": "슬리퍼"
+        },
+        "rect": {
+            "x": 319.74628171478565,
+            "y": 177.4803149606299,
+            "width": 127.57655293088362,
+            "height": 277.6902887139107
+        }
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "08f91dce-75f4-4b70-81e5-db43926070cf",
+    "state": "submitted",
+    "context": {
+        "id": "1006101",
+        "type": "image",
+        "contentType": "image/jpeg",
+        "contentLength": 11291,
+        "image": {
+            "url": "https://lemon-hello-www.s3.ap-northeast-2.amazonaws.com/image/2d0157c1-638b-4ea5-9e37-fc4b64ee6061.jpg",
+            "width": 300,
+            "height": 300
+        }
+    },
+    "annotations": [{
+        "id": "184abc4b-e772-4f04-a2cc-7fe3d6887a8a",
+        "label": {
+            "id": "2VRDWWuP8oZ",
+            "name": "축구화"
+        },
+        "rect": {
+            "x": 34.910485933503836,
+            "y": 128.5166240409207,
+            "width": 224.04092071611257,
+            "height": 98.97698209718669
+        }
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "da58ce25-8150-4d1c-afac-2e4e81027e32",
+    "state": "submitted",
+    "context": {
+        "id": "1000073",
+        "type": "image",
+        "contentType": "image/jpeg",
+        "contentLength": 173196,
+        "image": {
+            "url": "https://lemon-hello-www.s3.ap-northeast-2.amazonaws.com/image/05edac63-4af9-4d0c-88b3-ea65f20e4a32.jpg",
+            "width": 960,
+            "height": 720
+        }
+    },
+    "annotations": [{
+        "id": "bd287f1b-5fef-4fad-8d40-1084a3a4c4a6",
+        "label": {
+            "id": "mGvIfXYgAov",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 316.11253196930943,
+            "y": 110.48593350383632,
+            "width": 345.2685421994886,
+            "height": 519.2838874680307
+        }
+    }]
+}

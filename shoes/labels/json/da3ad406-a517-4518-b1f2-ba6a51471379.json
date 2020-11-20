@@ -1,0 +1,77 @@
+{
+    "id": "da3ad406-a517-4518-b1f2-ba6a51471379",
+    "state": "submitted",
+    "context": {
+        "id": "1001683",
+        "type": "image",
+        "contentType": "image/jpeg",
+        "contentLength": 2421583,
+        "image": {
+            "url": "https://lemon-hello-www.s3.ap-northeast-2.amazonaws.com/image/a78f5314-d8ad-4184-b736-da7e633f5ab8.jpg",
+            "width": 3024,
+            "height": 4032,
+            "orientation": 1
+        }
+    },
+    "annotations": [{
+        "id": "a6763c5e-004b-40b0-9dc7-1cee05282aa9",
+        "label": {
+            "id": "aJzLpe46Ol6",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 1207.8380864765409,
+            "y": 1439.2051517939283,
+            "width": 1528.2281508739648,
+            "height": 1620.9604415823367
+        }
+    }, {
+        "id": "972ff638-b7a8-4975-8263-3d11bbe6d0e5",
+        "label": {
+            "id": "aJzLpe46Ol6",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 1437.8141674333026,
+            "y": 433.9871205151794,
+            "width": 901.3578656853726,
+            "height": 422.8592456301749
+        }
+    }, {
+        "id": "5fd4200d-b259-4102-bead-4de363550c67",
+        "label": {
+            "id": "aJzLpe46Ol6",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 1415.5584176632935,
+            "y": 1046.0202391904324,
+            "width": 871.6835326586936,
+            "height": 400.6034958601656
+        }
+    }, {
+        "id": "fae59034-e00c-4c39-ae75-31ca9ff42b2e",
+        "label": {
+            "id": "aJzLpe46Ol6",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 517.9098436062558,
+            "y": 1042.3109475620975,
+            "width": 867.9742410303589,
+            "height": 367.2198712051518
+        }
+    }, {
+        "id": "9468b0f0-94f2-45d1-b30c-cd2c40378c70",
+        "label": {
+            "id": "aJzLpe46Ol6",
+            "name": "운동화"
+        },
+        "rect": {
+            "x": 480.8169273229071,
+            "y": 430.27782888684453,
+            "width": 905.0671573137076,
+            "height": 385.7663293468262
+        }
+    }]
+}
