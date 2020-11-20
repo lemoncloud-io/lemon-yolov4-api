@@ -62,7 +62,7 @@ def saveyolo(info: dict, base: str = ''):
 # download url
 def download(url: str, id: str = ''):
     name = url.split('/')[-1]
-    ext = name.split('/', 2)[-1]
+    ext = name.split('.')[-1]
     name = '{}.{}'.format(id, ext) if id else name
     base = os.path.join(curr_dir(), 'images')
     if not os.path.exists(base): os.makedirs(base)
@@ -111,7 +111,7 @@ def main(_, hello='Hello'):
 
     #! download images to `images` folder.
     if FLAGS.image:
-        images = [download(f['url'],f['id']) for f in jsoninfos]
+        images = [download(f['url'], f['id']) for f in jsoninfos]
         print('> images.len =', len(images))
 # main
 if __name__ == '__main__':
