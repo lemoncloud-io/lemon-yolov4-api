@@ -45,15 +45,15 @@
         },
         "dashboard": {
             "enable": true,
-            "port": 3000
+            "port": 9992
         },
         "tensorboard": {
             "enable": true,
-            "port": 6006
+            "port": 9991
         },
         "web_ui": {
             "enable": true,
-            "port": 8090
+            "port": 9990
         }
     }
 }
