@@ -41,7 +41,7 @@
         "calculate_map": true,
         "custom_api": {
             "enable": true,
-            "port": 8099
+            "port": 9999
         },
         "dashboard": {
             "enable": true,
