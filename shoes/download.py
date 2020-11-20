@@ -43,8 +43,10 @@ def loadjson(name: str, base: str = '', classes = None):
         w = img['width']
         h = img['height']
         tag = [(A['label']['name'],A['rect']['x'],A['rect']['y'],A['rect']['width'],A['rect']['height']) for A in data['annotations']]
+        translate = lambda x: 'sliper' if x == '슬리퍼' else 'soccer' if x == '축구화' else 'running'
+        # <object-class> <x_center> <y_center> <width> <height>
         if classes:
-            tag = [(classes.index(t[0]), t[1]/w, t[2]/h, t[3]/w, t[4]/h) for t in tag]
+            tag = [(classes.index(translate(t[0])), (t[1]+t[3]/2)/w, (t[2]+t[4]/2)/h, t[3]/w, t[4]/h) for t in tag]
         return { 'id': id, 'url': url, 'w':w, 'h':h, 'tag':tag }
 
 def tag2lines(tag):
