@@ -6,6 +6,9 @@
 test_data/
 trainings/
 
+# shoes samples
+shoes/images/
+shoes/yolo/
 
 .vscode/
 Pipfile.lock
