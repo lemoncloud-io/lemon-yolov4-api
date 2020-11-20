@@ -5,6 +5,9 @@ download images and make yolo lables.
 - simple run
 `$ python -m shoes.download --image 1`
 
+#TODO
+- FileNotFoundError: [Errno 2] No such file or directory: '/training/predictions.jpg'
+
 @copyright  lemoncloud.io 2020
 """
 import os, json, time

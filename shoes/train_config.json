@@ -2,9 +2,9 @@
     "data": {
         "name": "shoes",
         "classes": [
-            "슬리퍼",
-            "운동화",
-            "축구화"
+            "sliper",
+            "running",
+            "soccer"
         ],
         "train_ratio": 0.8
     },
